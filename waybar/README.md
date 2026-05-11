@@ -135,4 +135,4 @@ The Tray module utilizes the **drawer** feature to keep the interface clean. It 
 * I personally customized this configuration to fit the **Athena** desktop aesthetic.
 
 ---
-Developed with by Muhammad Haikal Hakim.
+Developed by Muhammad Haikal Hakim.
