@@ -26,6 +26,22 @@ A glimpse of the system information displayed with [Fastfetch](./fastfetch/):
 
 ---
 
+## Rofi Preview
+This Rofi display, used for [App Launcher](./rofi/config.rasi) and [Clipboard manager](./rofi/clipboard.rasi):
+
+<table>
+  <tr>
+    <td><img src="./assets/rofi/rofi_preview.png" alt="Rofi Launcher"/></td>
+    <td><img src="./assets/rofi/clipboard_preview.png" alt="Clipboard Manager"/></td>
+  </tr>
+  <tr>
+    <td align="center">App Launcher</td>
+    <td align="center">Clipboard Manager</td>
+  </tr>
+</table>
+
+---
+
 > [!WARNING]
 > **Disclaimer:** Don't just blindly clone and install these files if you don't know what they do. Always review the configuration files first!
 
