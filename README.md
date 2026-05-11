@@ -19,6 +19,13 @@ This is how the custom modular Waybar looks like, featuring dynamic theming with
 
 ---
 
+## Fastfetch Preview
+A glimpse of the system information displayed with Fastfetch:
+
+![Fastfetch Preview](./assets/fastfetch/fastfetch_preview.png)
+
+---
+
 > [!WARNING]
 > **Disclaimer:** Don't just blindly clone and install these files if you don't know what they do. Always review the configuration files first!
 
