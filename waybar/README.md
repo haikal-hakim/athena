@@ -134,7 +134,7 @@ This module merges **SwayNC** with the **Tray** using a **drawer-style** interfa
 * **Right Click**: mode Do Not Disturb (on/off)
 
 
-| Clock | Calendar |
+| Tray | Notification |
 | :---: | :---: |
 | ![System Tray](../assets/waybar/tray.png) | ![Notification](../assets/waybar/notif.png) |
 
