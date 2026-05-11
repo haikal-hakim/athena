@@ -1,0 +1,149 @@
+configuration {
+    modi:                "drun,filebrowser,window,run";
+    show-icons:          true;
+    drun-display-format: "{name}";
+
+    display-drun:        " ";
+    display-run:         " ";
+    display-filebrowser: " ";
+    display-window:      " ";
+
+    hover-select:        true;
+    me-select-entry:     "";
+    me-accept-entry:     "MousePrimary";
+    icon-theme:          "Papirus cirle light";
+
+    matching:            "prefix";
+    tokenize:            false;
+    case-sensitive:      false;
+    sort:                true;
+    sorting-method:      "levenshtein";
+}
+
+* {
+    font:           "JetBrainsMono Nerd Font 11";
+    bg:             rgb(30, 32, 48);
+    bg-element:     rgba(255, 255, 255, 0.00);
+    bg-selected:    rgb(138, 173, 244);
+    bg-dock:        rgb(234, 153, 156);
+    bg-btn:         rgba(52, 45, 68, 0.85);
+    bg-btn-active:  rgba(240, 235, 255, 0.95);
+    fg:             #e8e8f0;
+    fg-muted:       #ffffff;
+    fg-btn:         #babbf1;
+    fg-btn-active:  rgba(26, 20, 38, 0.95);
+    border-win:     rgba(137, 220, 235, 1.0);
+    fg-prompt:      rgb(243, 139, 168);
+}
+
+window {
+    location:         center;
+    anchor:           center;
+    width:            640px;
+    background-color: @bg;
+    border:           3px;
+    border-color:     @border-win;
+    border-radius:    22px;
+}
+
+mainbox {
+    orientation:      horizontal;
+    background-color: transparent;
+    children:         [ "leftbox", "mode-switcher" ];
+}
+
+leftbox {
+    orientation:      vertical;
+    background-color: transparent;
+    children:         [ "inputbar", "listview" ];
+}
+
+inputbar {
+    enabled:          true;
+    padding:          20px 20px 10px 20px;
+    background-color: transparent;
+    children:         [ "prompt", "entry" ];
+}
+
+entry {
+    background-color:  transparent;
+    text-color:        @fg;
+    placeholder:       "Search...";
+    placeholder-color: @fg-btn;
+    padding:           0 10px;
+}
+
+prompt {
+    background-color: transparent;
+    text-color:       @fg-prompt;
+}
+
+listview {
+    background-color: transparent;
+    columns:          4;
+    lines:            3;
+    spacing:          10px;
+    padding:          10px 20px 20px 20px;
+    fixed-columns:    true;
+    fixed-height:     true;
+    cycle:            false;
+}
+
+element {
+    orientation:      vertical;
+    padding:          10px;
+    border-radius:    16px;
+    spacing:          10px;
+    background-color: @bg-element;
+    children:         [ element-icon, element-text ];
+}
+
+element selected {
+    background-color: @bg-selected;
+}
+
+element-icon {
+    background-color: transparent;
+    size:             64px;
+    horizontal-align: 0.5;
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       @fg-muted;
+    horizontal-align: 0.5;
+    font:             "JetBrainsMono Nerd Font 11";
+}
+
+element selected element-text {
+    text-color: @fg;
+}
+
+element-text highlight {
+    text-color: @fg;
+}
+
+mode-switcher {
+    background-color: @bg-dock;
+    width:            85px;
+    padding:          60px 10px;
+    spacing:          20px;
+    border-radius:    0 20px 20px 0;
+    orientation:      vertical;
+    children:         [ button ];
+}
+
+button {
+    background-color: @bg-btn;
+    text-color:       @fg-btn;
+    border-radius:    50px;
+    padding:          14px 0px;
+    cursor:           pointer;
+    horizontal-align: 0.5;
+    vertical-align:   0.5;
+}
+
+button selected {
+    background-color: @bg-btn-active;
+    text-color:       @fg-btn-active;
+}
