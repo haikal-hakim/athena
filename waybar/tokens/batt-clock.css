@@ -1,0 +1,17 @@
+@import "colors.css";
+
+#battery {
+  margin: 4px 5px;
+  padding: 6px 16px;
+  background-color: @surface_container;
+  border-radius: 20px;
+  color: @secondary_fixed_dim;
+}
+
+#clock {
+  margin: 4px 5px;
+  padding: 6px 10px 6px 16px;
+  background-color: @surface_container;
+  border-radius: 20px;
+  color: @secondary_fixed_dim;
+}
