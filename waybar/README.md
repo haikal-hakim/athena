@@ -127,9 +127,15 @@ The clock displays the time and can be toggled to a calendar view. It also inclu
 
 ## Tray
 
-The Tray module utilizes the **drawer** feature to keep the interface clean. It displays background applications that support the system tray, featuring the stylish **Dark Circle Tela** icons.
+This module merges **SwayNC** with the **Tray** using a **drawer-style** interface to keep the UI clean. It manages background applications via the system tray with **Tela-Circle-Dark** icons. Additionally, it features a **dynamic notification indicator** that updates its icon and color based on incoming alerts or system states.
 
-![System Tray](../assets/waybar/tray.png)
+| Clock | Calendar |
+| :---: | :---: |
+| ![System Tray](../assets/waybar/tray.png) | ![Notification](../assets/waybar/notif.png) |
+
+### Bluetooth
+* **Left Click**: Open or close `swaync client`.
+* **Right Click**: mode Do Not Disturb (on/off)
 
 ---
 
