@@ -14,7 +14,7 @@
     "./modules/connections.jsonc",
     "./modules/battery.jsonc",
     "./modules/clock.jsonc",
-    "./modules/tray.jsonc"
+    "./modules/tray-notif.jsonc"
   ],
   "modules-left": [
     "group/distro-group",
