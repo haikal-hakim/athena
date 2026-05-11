@@ -12,6 +12,10 @@ The color tokens are dynamically managed:
 
 All Waybar modules automatically inherit these colors for a consistent, system-wide aesthetic.
 
+![Dynamic Example](../assets/waybar/dynamic_example.png)
+![Dynamic Example_1](../assets/waybar/dynamic_example_1.png.png)
+![Dynamic Example_2](../assets/waybar/dynamic_example_2.png)
+
 ---
 
 ## Full Desktop Preview
