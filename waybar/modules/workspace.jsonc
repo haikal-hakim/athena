@@ -48,7 +48,6 @@
       "urgent": "󰧵",
       "empty": ""
     },
-    // TAMBAHIN INI BIAR DIA GAK ERROR:
     "show-special": true,
     "all-outputs": true
   }
