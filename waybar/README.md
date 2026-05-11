@@ -7,8 +7,8 @@ This README provides a preview and explains the file structure of my Waybar conf
 This setup uses **[Matugen](https://github.com/InioX/matugen)** to generate Material You color palettes from your wallpaper.
 
 The color tokens are dynamically managed:
-* **Template**: Located in `matugen/templates/waybar-colors.css`
-* **Output**: Generated into `waybar/tokens/colors.css`
+* **Template**: Located in [`matugen/templates/waybar-colors.css`](./matugen/templates/waybar-colors.css)
+* **Output**: Generated into [`waybar/tokens/colors.css`](./waybar/tokens/colors.css)
 
 All Waybar modules automatically inherit these colors for a consistent, system-wide aesthetic.
 
@@ -58,11 +58,8 @@ The workspace module uses dynamic icons to represent different states:
 
 I have also implemented **window-rewrite** rules, where icons dynamically change based on the open application. Additionally, there is a smooth animation when switching between workspaces to enhance the user experience.
 
-| Workspaces | Workspaces Urgent |
-| :---: | :---: |
-| ![Workspaces](../assets/waybar/workspace.png)
- | ![Workspaces Urgent](../assets/waybar/workspace_urgent.png)
- |
+![Workspaces](../assets/waybar/workspace.png)
+![Workspaces Urgent](../assets/waybar/workspace_urgent.png)
 
 ---
 
