@@ -1,0 +1,7 @@
+[config]
+reload_apps = false
+
+[templates.waybar]
+input_path = "~/.config/matugen/templates/waybar-colors.css"
+output_path = "~/.config/waybar/tokens/colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
