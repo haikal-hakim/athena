@@ -31,12 +31,12 @@ This Rofi display, used for [App Launcher](./rofi/config.rasi) and [Clipboard ma
 
 <table>
   <tr>
-    <td><img src="./assets/rofi/rofi_preview.png" alt="Rofi Launcher"/></td>
-    <td><img src="./assets/rofi/clipboard_preview.png" alt="Clipboard Manager"/></td>
-  </tr>
-  <tr>
     <td align="center">App Launcher</td>
     <td align="center">Clipboard Manager</td>
+  </tr>
+  <tr>
+    <td><img src="./assets/rofi/rofi_preview.png" alt="Rofi Launcher" width="450"/></td>
+    <td><img src="./assets/rofi/clipboard_preview.png" alt="Clipboard Manager" width="450"/></td>
   </tr>
 </table>
 
