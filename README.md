@@ -31,8 +31,7 @@ This Rofi display, used for [App Launcher](./rofi/config.rasi) and [Clipboard ma
 
 | Rofi Launcher | Clipboard Manager |
 | :---: | :---: |
-| ![System Tray](../assets/rofi/rofi_preview) | ![Notification](../assets/rofi/clipboard_preview) |
-
+| ![Rofi Launcher](./assets/rofi/rofi_preview) | ![Clipboard Manager](./assets/rofi/clipboard_preview) |
 ---
 
 ## Neovim Preview
