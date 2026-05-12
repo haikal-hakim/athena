@@ -1,6 +1,8 @@
 /* ~/.config/rofi/clipboard.rasi */
 @import "config.rasi"
-
+inputbar {
+  enabled: false;
+}
 window {
   width: 670px;
 }
@@ -8,8 +10,8 @@ window {
 listview {
   columns: 1;
   lines: 5;
-  cycle:        false;
-  dynamic:      true;
+  cycle: false;
+  dynamic: true;
 }
 
 element {
@@ -22,5 +24,7 @@ element-icon {
 }
 
 element-text {
+  vertical-align: 1;
   horizontal-align: 0.0;
 }
+
