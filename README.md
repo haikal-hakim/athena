@@ -22,7 +22,7 @@ This is how the custom modular Waybar looks like, featuring dynamic theming with
 ## Fastfetch Preview
 A glimpse of the system information displayed with [Fastfetch](./fastfetch/):
 
-![Fastfetch Preview](./assets/fastfetch/fastfetch_preview.png)
+![Fastfetch Preview](./assets/fastfetch_preview.png)
 
 ---
 
