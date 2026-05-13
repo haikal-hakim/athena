@@ -14,7 +14,7 @@
   background: transparent;
   border-radius: 16px;
   color: @tertiary;
-  transition: all 0.5s cubic-bezier(0.65, 0, 0.35, 1)
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
 }
 
 #workspaces button.active {
@@ -22,6 +22,10 @@
   margin: 0 2px;
   background-color: @primary;
   color: @on_primary;
+}
+
+#workspaces button.special {
+  color: @tertiary_fixed;
 }
 
 #workspaces button:hover {
@@ -42,13 +46,10 @@
   color: @error_container;
 }
 
-/* Kasih jarak ke kanan buat icon Pacman/Hantu/Dot */
 #workspaces button label:first-child {
   margin-right: 8px;
-  /* Atur angkanya sampe pas menurut mata lu */
 }
 
-/* Biar icon aplikasinya juga gak nempel banget ke tembok kanan */
 #workspaces button label:last-child {
   margin-left: 2px;
 }

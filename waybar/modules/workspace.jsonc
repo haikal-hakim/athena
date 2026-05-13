@@ -23,6 +23,7 @@
       // --- Graphics & Visual ---
       "xdg-desktop-portal-gtk": "",
       "thunar": "",
+      "yazi": "󰇥",
       "imv": "󰄄",
       "swappy": "󰄄",
       "org.gnome.FileRoller": "",
@@ -44,6 +45,7 @@
     },
     "format-icons": {
       "active": "󰮯",
+      "special": "󱁂",
       "default": "󰊠",
       "urgent": "󰧵",
       "empty": ""
