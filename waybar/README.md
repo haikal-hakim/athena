@@ -7,10 +7,10 @@ This README provides a preview and explains the file structure of my Waybar conf
 This setup uses **[Matugen](https://github.com/InioX/matugen)** to generate Material You color palettes from your wallpaper.
 
 The color tokens are dynamically managed:
-* **Template**: Located in [`matugen/templates/waybar-colors.css`](./matugen/templates/waybar-colors.css)
-* **Output**: Generated into [`waybar/tokens/colors.css`](./waybar/tokens/colors.css)
+* **Template**: Located in [`matugen/templates/waybar-colors.css`](../matugen/templates/waybar-colors.css)
+* **Output**: Generated into [`waybar/tokens/colors.css`](./tokens/colors.css)
 
-All Waybar modules automatically inherit these colors for a consistent, system-wide aesthetic.
+All Waybar modules automatically inherit these colors for a consistent.
 
 ![Dynamic Example](../assets/waybar/dynamic_example.png)
 ![Dynamic Example_1](../assets/waybar/dynamic_example_1.png)
