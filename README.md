@@ -5,7 +5,7 @@ This repository contains my Hyprland dotfiles, which are currently a Work In Pro
 ## Prologue
 > "Let him that would move the world, first move himself."
 
-In the pursuit of a perfect workspace, one must balance aesthetics with uncompromising utility. This repository is not just a collection of scripts, but a digital sanctuary built upon the principles of clarity and strategic design. Welcome to **Athena**.
+In the pursuit of a perfect workspace, one must balance form with uncompromising utility. This repository is not just a collection of scripts, but a digital sanctuary built upon the principles of clarity and strategic design.
 
 ---
 
