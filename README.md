@@ -9,6 +9,17 @@ In the pursuit of a perfect workspace, one must balance form with uncompromising
 
 ---
 
+## Table of Contents
+* [Waybar Preview](#waybar-preview)
+* [Rofi Preview](#rofi-preview)
+* [Sway Notification Center](#sway-notification-center)
+* [Hyprpaper Selector](#hyprpaper-selector)
+* [Fastfetch & Starship Preview](#fastfetch--starship-preview)
+* [Neovim Preview](#neovim-preview)
+* [Epilogue](#epilogue)
+
+---
+
 ## Waybar Preview
 This is how the custom modular Waybar looks like, featuring dynamic theming with Matugen:
 
