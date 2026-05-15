@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Hyprland-33CCEE?style=flat&logo=hyprland&logoColor=white" />
   <img src="https://img.shields.io/badge/Neovim-22C55E?style=flat&logo=neovim&logoColor=white" />
   <br />
-  <img src="https://img.shields.io/github/LICENSE/haikal-hakim/athena?style=flat&color=yellow" />
+  <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=flat&color=yellow" />
   <img src="https://img.shields.io/badge/Status-WIP-orange?style=flat" />
 </p>
 
