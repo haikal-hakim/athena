@@ -38,6 +38,24 @@ In the pursuit of a perfect workspace, one must balance form with uncompromising
 |**[Neovim](#neovim-preview)** | Personal LazyVim setup |
 |**[Warning](#warning)** | Crucial installation disclaimer |
 
+<details>
+<summary><b>📂 Click to view Folder Structure</b></summary>
+
+```text
+athena/
+├── 📂 assets/       # Wallpapers, screenshots & icons
+├── 📂 fastfetch/    # System information layout
+├── 📂 kitty/        # GPU-based terminal configuration
+├── 📂 matugen/      # Material Design dynamic color templates
+├── 📂 nvim/         # Neovim (LazyVim) IDE & plugins config
+├── 📂 rofi/         # Application launcher & clipboard themes
+├── 📂 starship/     # Minimalist & fast shell prompt
+├── 📂 swaync/       # Notification daemon & control center
+├── 📂 waybar/       # Highly modular status bar configuration
+└── 📂 zsh/          # Z-shell aliases, functions & plugins
+```
+</details>
+
 ---
 
 ## Waybar Preview
@@ -77,7 +95,7 @@ An interactive [wallpaper selector](./zsh/) for **Hyprpaper**, integrated with *
 ---
 
 ## Fastfetch & Starship Preview
-A glimpse of the system information displayed with [Fastfetch](./fastfetch/) and [Starship](./fastfetch/):
+A glimpse of the system information displayed with [Fastfetch](./fastfetch/) and [Starship](./starship/):
 
 ![Fastfetch Preview](./assets/fastfetch_preview.png)
 
@@ -86,7 +104,7 @@ A glimpse of the system information displayed with [Fastfetch](./fastfetch/) and
 ## Neovim Preview
 My personal [LazyVim](./nvim/) configuration:
 
-![Lazyvim Preview](./assets/dasboard_preview.png)
+![Lazyvim Preview](./assets/dashboard_preview.png)
 
 ---
 
