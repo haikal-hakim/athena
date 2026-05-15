@@ -35,6 +35,13 @@ Simple [swaync](./swaync/) with screenshot button feature, screen record, hyprpi
 
 ---
 
+## Hyprpaper Selector
+An interactive [wallpaper selector](./zsh/wallpaper.zsh) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
+
+![Hyprpaper Selector Preview](./assets/wallpaper-selector.png)
+
+---
+
 ## Fastfetch & Starship Preview
 A glimpse of the system information displayed with [Fastfetch](./fastfetch/) and [Starship](./fastfetch/):
 
