@@ -88,6 +88,7 @@ My personal [LazyVim](./nvim/) configuration:
 
 ---
 
+<a name="warning"></a>
 > [!WARNING]
 > **Disclaimer:** Don't just blindly clone and install these files if you don't know what they do. Always review the configuration files first!
 
