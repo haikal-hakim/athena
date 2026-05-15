@@ -19,19 +19,27 @@ This is how the custom modular Waybar looks like, featuring dynamic theming with
 
 ---
 
-## Fastfetch & Starship Preview
-A glimpse of the system information displayed with [Fastfetch](./fastfetch/) and [Starship](./fastfetch/):
-
-![Fastfetch Preview](./assets/fastfetch_preview.png)
-
----
-
 ## Rofi Preview
 This Rofi display, used for [App Launcher](./rofi/config.rasi) and [Clipboard manager](./rofi/clipboard.rasi):
 
 | Rofi Launcher | Clipboard Manager |
 | :---: | :---: |
 | ![Rofi Launcher](./assets/rofi/rofi_preview.png) | ![Clipboard Manager](./assets/rofi/clipboard_prieview.png) |
+
+---
+
+## Sway Notification Center
+Simple [swaync](./swaync/) with screenshot button feature, screen record, hyprpicker and calculator
+
+![Sway Notification Center Preview](./assets/swaync.png)
+
+---
+
+## Fastfetch & Starship Preview
+A glimpse of the system information displayed with [Fastfetch](./fastfetch/) and [Starship](./fastfetch/):
+
+![Fastfetch Preview](./assets/fastfetch_preview.png)
+
 ---
 
 ## Neovim Preview
@@ -51,6 +59,6 @@ This configuration is a reflection of constant iteration and the pursuit of an e
 
 > "Doubt is the beginning of wisdom."
 
-**Athena Dotfiles** — Crafted for efficiency, maintained with discipline.
+**Athena Dotfiles** - Crafted for efficiency, maintained with discipline.
 
 *Muhammad Haikal Hakim*
