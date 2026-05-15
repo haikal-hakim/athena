@@ -25,6 +25,6 @@ Source the script in your **.zshrc**:
 if [ -f ~/.config/zsh/wallpaper.zsh ]; then
     source ~/.config/zsh/wallpaper.zsh
 fi
-
+```
 ## Run Function
 Run the command in your terminal: `wallpaper`
