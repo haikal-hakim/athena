@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hyprland-00a2ff?style=flat-square&logo=hyprland&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hyprland-33CCEE?style=flat&logo=hyprland&logoColor=white" />
 </p>
 
 <p align="center">
