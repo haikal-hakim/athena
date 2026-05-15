@@ -1,0 +1,35 @@
+.widget-buttons-grid {
+  margin: 4px 0;
+  padding: 8px;
+  background: var(--bg-widget);
+}
+
+.widget-buttons-grid>flowbox>flowboxchild {
+  margin: 0 16px;
+  padding: 0;
+  border: none;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button {
+  min-width: 40px;
+  min-height: 40px;
+  padding: 5px;
+  color: var(--text-primary);
+  background: transparent;
+  transition: all var(--t-fast);
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+  color: var(--text-hover);
+  background-color: var(--hover-dim);
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button>label {
+  margin-right: 3px;
+  font-size: 18px;
+}
+
+.notification image {
+  filter: drop-shadow(0 0 5px rgba(124, 133, 245, 0.4));
+  border-radius: 8px;
+}

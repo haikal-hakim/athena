@@ -1,0 +1,63 @@
+/* --- WIDGET: TITLE --- */
+.widget-title {
+  margin: 0 0 6px 0;
+  padding: 8px 12px;
+  background: var(--bg-widget);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.widget-title>label {
+  margin-left: 7px;
+  color: var(--text-primary);
+}
+
+.widget-title>button {
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--btn-off);
+  background: var(--bg-tile);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-btn);
+  transition: background var(--t-fast), border-color var(--t-fast);
+}
+
+.widget-title>button:hover {
+  color: var(--text-hover);
+  background-color: var(--hover-dim);
+}
+
+/* --- WIDGET: DND --- */
+.widget-dnd {
+  margin: 4px 0 4px 0;
+  padding: 6px 12px;
+  background: var(--bg-widget);
+  border-radius: var(--radius-widget);
+}
+
+.widget-dnd>label {
+  margin-left: 6px;
+  color: var(--text-primary);
+}
+
+.widget-dnd>switch {
+  min-width: 42px;
+  min-height: 22px;
+  background: var(--bg-tile);
+  border: 1px solid var(--border-glass);
+  border-radius: 20px;
+  transition: background var(--t-mid), border-color var(--t-mid);
+}
+
+.widget-dnd>switch:checked {
+  background: var(--btn-on);
+}
+
+.widget-dnd>switch slider {
+  min-width: 14px;
+  min-height: 14px;
+  margin: 4px 4px;
+  background: var(--btn-off);
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}

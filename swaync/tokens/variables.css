@@ -1,0 +1,37 @@
+* {
+  --bg-panel: rgba(255, 255, 255, 0.4);
+  --bg-widget: rgba(245, 245, 250, 0.75);
+
+  --bg-tile: rgba(18, 18, 38, 0.70);
+  --bg-tile-hover: rgba(32, 32, 62, 0.88);
+
+  --bg-critical: rgba(55, 8, 18, 0.82);
+  --bg-critical-hover: rgba(80, 12, 25, 0.92);
+
+  --border-critical: rgba(255, 80, 100, 0.55);
+  --shadow-critical: rgba(220, 30, 60, 0.35);
+
+  --btn-on: rgba(0, 122, 255, 1);
+  --btn-off: rgba(255, 255, 255, 0.5);
+
+  --accent: #7c85f5;
+  --accent-dim: rgba(124, 133, 245, 0.18);
+  --hover-dim: rgba(75, 80, 100, 1);
+
+  --border-subtle: rgba(180, 185, 255, 0.12);
+  --border-glass: rgba(220, 225, 255, 0.16);
+
+  --text-primary: rgba(0, 0, 0, 0.85);
+  --text-secondary: rgba(0, 0, 0, 0.5);
+
+  --text-dim: rgba(140, 145, 185, 0.55);
+  --text-hover: rgba(255, 255, 255, 1);
+
+  --radius-panel: 20px;
+  --radius-widget: 10px;
+  --radius-tile: 12px;
+  --radius-btn: 8px;
+
+  --t-fast: 150ms ease;
+  --t-mid: 220ms ease;
+}

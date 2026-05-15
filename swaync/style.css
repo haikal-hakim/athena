@@ -1,0 +1,61 @@
+@import url("./tokens/variables.css");
+@import url("./tokens/title-dnd.css");
+@import url("./tokens/button-grid.css");
+@import url("./tokens/slider.css");
+@import url("./tokens/mpris.css");
+@import url("./tokens/notification.css");
+
+* {
+  outline-width: 0px;
+  outline-style: none;
+  font-size: 16px;
+}
+
+.background,
+.view {
+  background: transparent;
+}
+
+button {
+  outline: none;
+  box-shadow: none;
+}
+
+button:focus {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-offset: 2px;
+}
+
+/* --- MAIN CONTAINER --- */
+.control-center {
+  padding: 20px 14px;
+  background: var(--bg-panel);
+  border: 2px solid var(--border-glass);
+  border-radius: var(--radius-panel);
+}
+
+/* --- SCROLLBAR --- */
+.control-center scrollbar {
+  background: transparent;
+  border: none;
+}
+
+.control-center scrollbar slider {
+  background: var(--accent-dim);
+  transition: background var(--t-fast);
+}
+
+.control-center scrollbar slider:hover {
+  background: var(--accent-hover);
+}
+
+/* --- NOTIFICATION GROUP --- */
+.notification-group.collapsed {
+  background: var(--bg-widget);
+  border-radius: var(--radius-widget);
+}
+
+.notification-row {
+  padding: 6px 1px;
+}

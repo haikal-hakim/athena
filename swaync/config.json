@@ -1,0 +1,81 @@
+{
+  "layer": "overlay",
+  "control-center-layer": "top",
+  "keyboard-shortcuts": true,
+  "transition-time": 200,
+  "hide-on-clear": false,
+  "hide-on-action": true,
+  "time-format": "%H:%M",
+  "positionX": "right",
+  "positionY": "top",
+  "fit-to-screen": true,
+  "control-center-width": 360,
+  "control-center-height": 0,
+  "control-center-margin-top": 8,
+  "control-center-margin-bottom": 8,
+  "control-center-margin-right": 8,
+  "control-center-margin-left": 0,
+  "notification-window-width": 380,
+  "notification-icon": true,
+  "notification-icon-size": 48,
+  "app-icon-size": 20,
+  "notification-close-button-position": "right",
+  "notification-visibility": {},
+  "timeout": 10,
+  "timeout-low": 5,
+  "timeout-critical": 0,
+  "widgets": [
+    "title",
+    "dnd",
+    "buttons-grid",
+    "volume",
+    "backlight",
+    "mpris",
+    "notifications"
+  ],
+  "widget-config": {
+    "title": {
+      "text": "Notification Center",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "buttons-grid": {
+      "actions": [
+        {
+          "label": "",
+          "command": "swaync-client -cp; sleep 0.3; hyprctl dispatch exec 'path/to/your/screenshot.sh'"
+        },
+        {
+          "label": "󰹑",
+          "command": "swaync-client -cp; sleep 0.3; hyprctl dispatch exec 'path/to/your/record.sh'"
+        },
+        {
+          "label": "",
+          "command": "swaync-client -cp; sleep 0.3; hyprctl dispatch exec 'hyprpicker -a'"
+        },
+        {
+          "label": "󰪚",
+          "command": "swaync-client -cp; galculator"
+        }
+      ]
+    },
+    "mpris": {
+      "image-size": 56,
+      "blur-image": false
+    },
+    "volume": {
+      "label": "󰕾 ",
+      "show-per-app": false
+    },
+    "backlight": {
+      "label": "󰃠 ",
+      "device": "intel_backlight"
+    },
+    "notifications": {
+      "notification-visibility": {}
+    }
+  }
+}

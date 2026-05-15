@@ -1,0 +1,151 @@
+/* --- NOTIFICATION CONTAINER --- */
+.notification {
+  padding: 12px 14px;
+  background: var(--bg-tile);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-tile);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
+  transition: background var(--t-mid), border-color var(--t-mid), box-shadow var(--t-mid);
+}
+
+.notification:hover {
+  background: var(--bg-tile-hover);
+  border-color: var(--border-glass);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.40);
+}
+
+/* Critical State */
+.notification.critical {
+  background: var(--bg-critical);
+  border: 1px solid var(--border-critical);
+  box-shadow: 0 4px 20px var(--shadow-critical), inset 0 0 0 1px var(--border-critical);
+}
+
+.notification.critical:hover {
+  background: var(--bg-critical-hover);
+}
+
+/* --- NOTIFICATION CONTENT --- */
+.app-name {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+.time {
+  font-size: 10px;
+  color: var(--text-hover);
+}
+
+.summary {
+  margin: 4px 0 2px 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-hover);
+}
+
+.body {
+  margin: 0 0 2px 4px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--bg-widget);
+}
+
+/* --- ACTIONS & BUTTONS --- */
+.notification-default-action {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.notification-action {
+  margin: 4px 3px 0 3px;
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 10px solid var(--border-glass);
+  border-radius: var(--radius-btn);
+  transition: background var(--t-fast), border-color var(--t-fast);
+}
+
+.notification-action:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent);
+}
+
+.close-button {
+  min-width: 22px;
+  min-height: 22px;
+  padding: 2px;
+  font-size: 13px;
+  color: var(--text-dim);
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  transition: background var(--t-fast), color var(--t-fast);
+}
+
+.close-button:hover {
+  color: rgba(255, 110, 120, 0.95);
+  background: rgba(255, 80, 100, 0.18);
+}
+
+/* --- GROUPING & POPUPS --- */
+row.notification-group {
+  margin: 4px 0;
+  padding: 4px 1px;
+  background: var(--bg-tile);
+  border-radius: var(--radius-tile);
+}
+
+.notification-popup {
+  margin: 8px;
+  background: var(--bg-tile);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-tile);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  animation: slideInRight 180ms ease both;
+}
+
+.notification-popup.critical {
+  border-color: var(--border-critical);
+  box-shadow: 0 8px 36px var(--shadow-critical), inset 0 0 0 1px var(--border-critical);
+}
+
+/* --- ANIMATIONS --- */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* --- EMPTY STATE & MISC --- */
+.notification-placeholder {
+  color: var(--text-dim);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin: 24px 0 24px 0;
+}
+
+.notification-group-headers {
+  color: var(--text-dim);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 6px 4px 2px 4px;
+}
+
+separator {
+  background: var(--border-subtle);
+  min-height: 1px;
+  margin: 4px 0 4px 0;
+  border: none;
+}

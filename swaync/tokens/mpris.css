@@ -1,0 +1,40 @@
+.widget-mpris {
+  margin: 4px 0 4px 0;
+  padding: 12px 12px;
+  background: var(--bg-widget);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-tile);
+}
+
+.widget-mpris-album-art {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px var(--bg-panel);
+}
+
+.widget-mpris-title {
+  margin: 0 0 2px 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.widget-mpris-subtitle {
+  font-size: 11px;
+  color: var(--bg-widget);
+}
+
+.widget-mpris-player>box>box:last-child {
+  margin-top: 12px;
+}
+
+.widget-mpris-content button {
+  color: var(--bg-widget);
+  background: transparent;
+  border: none;
+  transition: color var(--t-fast), background var(--t-fast);
+}
+
+.widget-mpris button:hover {
+  color: #ffffff;
+  background-color: var(--hover-dim);
+}
