@@ -27,14 +27,16 @@ In the pursuit of a perfect workspace, one must balance form with uncompromising
 ---
 
 ## Table of Contents
-* [Waybar Preview](#waybar-preview)
-* [Rofi Preview](#rofi-preview)
-* [Sway Notification Center](#sway-notification-center)
-* [Hyprpaper Selector](#hyprpaper-selector)
-* [Fastfetch & Starship Preview](#fastfetch--starship-preview)
-* [Neovim Preview](#neovim-preview)
-* [Warning](#warning)
-* [Epilogue](#epilogue)
+
+| Sections | Details |
+| :--- | :--- |
+|**[Waybar](#waybar-preview)** | Custom modular status bar |
+|**[Rofi](#rofi-preview)** | App launcher & Clipboard |
+|**[SwayNC](#sway-notification-center)** | Notification center & Control center |
+|**[Wallpapers](#hyprpaper-selector)** | Interactive hyprpaper selector |
+|**[System](#fastfetch--starship-preview)** | Fastfetch & Starship prompts |
+|**[Neovim](#neovim-preview)** | Personal LazyVim setup |
+|**[Warning](#warning)** | Crucial installation disclaimer |
 
 ---
 
