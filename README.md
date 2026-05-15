@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OS-Arch%20Linux-blue?style=flat-square&logo=arch-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/WM-Hyprland-00a2ff?style=flat-square&logo=hyprland&logoColor=white" />
+  <img src="https://img.shields.io/badge/Arch%20Linux-blue?style=flat-square&logo=arch-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hyprland-00a2ff?style=flat-square&logo=hyprland&logoColor=white" />
 </p>
 
 <p align="center">
