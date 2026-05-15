@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hyprland-33CCEE?style=flat&logo=hyprland&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shell-Zsh-white?style=flat&logo=zsh&logoColor=black" />
-  <img src="https://img.shields.io/badge/Terminal-Kitty-000000?style=flat&logo=kitty&logoColor=white" />
-  <img src="https://img.shields.io/badge/Editor-Neovim-22c55e?style=flat&logo=neovim&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-WIP-orange?style=flat" />
+  <img src="https://img.shields.io/badge/-Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Hyprland-33CCEE?style=flat&logo=hyprland&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Zsh-white?style=flat&logo=zsh&logoColor=black" />
+  <img src="https://img.shields.io/badge/-Kitty-000000?style=flat&logo=kitty&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Neovim-22c55e?style=flat&logo=neovim&logoColor=white" />
+  <img src="https://img.shields.io/badge/-WIP-orange?style=flat" />
 </p>
 
 <p align="center">
