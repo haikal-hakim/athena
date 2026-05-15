@@ -40,6 +40,9 @@ An interactive [wallpaper selector](./zsh/) for **Hyprpaper**, integrated with *
 
 ![Hyprpaper Selector Preview](./assets/wallpaper-selector.png)
 
+> [!TIP]
+> You can find the detailed documentation and structure for my ZSH setup in the [zsh folder](./z).
+
 ---
 
 ## Fastfetch & Starship Preview
