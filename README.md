@@ -36,7 +36,7 @@ Simple [swaync](./swaync/) with screenshot button feature, screen record, hyprpi
 ---
 
 ## Hyprpaper Selector
-An interactive [wallpaper selector](./zsh/wallpaper.zsh) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
+An interactive [wallpaper selector](./zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
 
 ![Hyprpaper Selector Preview](./assets/wallpaper-selector.png)
 
