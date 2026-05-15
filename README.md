@@ -1,6 +1,17 @@
-# My Hyprland Journey
+<p align="center">
+  <h1 align="center">My Hyprland Journey</h1>
+</p>
 
-This repository contains my Hyprland dotfiles, which are currently a Work In Progress (WIP). Everything is subject to change at any time, depending on my mood and how much free time I have to tinker with them.
+<p align="center">
+  <img src="https://img.shields.io/badge/OS-Arch%20Linux-blue?style=flat-square&logo=arch-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/WM-Hyprland-00a2ff?style=flat-square&logo=hyprland&logoColor=white" />
+</p>
+
+<p align="center">
+  This repository contains my Hyprland dotfiles, which are currently a Work In Progress (WIP).
+</p>
+
+---
 
 ## Prologue
 > "Let him that would move the world, first move himself."
@@ -35,7 +46,7 @@ This Rofi display, used for [App Launcher](./rofi/config.rasi) and [Clipboard ma
 
 | Rofi Launcher | Clipboard Manager |
 | :---: | :---: |
-| ![Rofi Launcher](./assets/rofi/rofi_preview.png) | ![Clipboard Manager](./assets/rofi/clipboard_prieview.png) |
+| ![Rofi Launcher](./assets/rofi/rofi_preview.png) | ![Clipboard Manager](./assets/rofi/clipboard_preview.png) |
 
 ---
 
