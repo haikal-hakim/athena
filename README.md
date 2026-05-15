@@ -5,10 +5,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Hyprland-33CCEE?style=flat&logo=hyprland&logoColor=white" />
-  <img src="https://img.shields.io/badge/Zsh-white?style=flat&logo=zsh&logoColor=black" />
-  <img src="https://img.shields.io/badge/Kitty-000000?style=flat&logo=kitty&logoColor=white" />
   <img src="https://img.shields.io/badge/Neovim-22C55E?style=flat&logo=neovim&logoColor=white" />
-  <img src="https://img.shields.io/badge/WIP-orange?style=flat" />
+  <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=flat&color=yellow" />
+  <br />
+  <img src="https://img.shields.io/badge/Status-WIP-orange?style=flat" />
 </p>
 
 <p align="center">
@@ -31,6 +31,7 @@ In the pursuit of a perfect workspace, one must balance form with uncompromising
 * [Hyprpaper Selector](#hyprpaper-selector)
 * [Fastfetch & Starship Preview](#fastfetch--starship-preview)
 * [Neovim Preview](#neovim-preview)
+* [Warning](#warning)
 * [Epilogue](#epilogue)
 
 ---
