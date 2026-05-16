@@ -13,7 +13,10 @@ wallpaper() {
     echo -e "\e[38;2;0;210;210m          Hyprpaper Selector\e[0m"
     echo -e "\e[38;2;155;52;200m  ──────────────────────────────────\e[0m"
     echo ""
-    local WALLS=("${(@f)$(eza -1 "$DIR")}")
+    local WALLS=()
+    for f in "$DIR"/*; do
+      [[ -f "$f" ]] && WALLS+=("${f:t}")
+    done
     if [ ${#WALLS[@]} -eq 0 ]; then
         echo -e "\e[38;2;239;69;56m  ✗  folder empty $DIR\e[0m"
         return
