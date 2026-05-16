@@ -12,9 +12,9 @@ The color tokens are dynamically managed:
 
 All Waybar modules automatically inherit these colors for a consistent.
 
-![Dynamic Example](../assets/waybar/dynamic_example.png)
-![Dynamic Example_1](../assets/waybar/dynamic_example_1.png)
-![Dynamic Example_2](../assets/waybar/dynamic_example_2.png)
+![Dynamic Example](../../assets/waybar/dynamic_example.png)
+![Dynamic Example_1](../../assets/waybar/dynamic_example_1.png)
+![Dynamic Example_2](../../assets/waybar/dynamic_example_2.png)
 
 ---
 
@@ -22,7 +22,7 @@ All Waybar modules automatically inherit these colors for a consistent.
 
 Full desktop overview showcasing Waybar integrated with Kitty (Fastfetch) and Neovim.
 
-![Full Desktop Preview](../assets/waybar/full_desktop_waybar.png)
+![Full Desktop Preview](../../assets/waybar/full_desktop_waybar.png)
 
 ---
 
@@ -30,7 +30,7 @@ Full desktop overview showcasing Waybar integrated with Kitty (Fastfetch) and Ne
 
 In the custom distro section, I use a **drawer** that contains some important applications.
 
-![Custom Distro Preview](../assets/waybar/custom_distro.png)
+![Custom Distro Preview](../../assets/waybar/custom_distro.png)
 
 ---
 
@@ -38,7 +38,7 @@ In the custom distro section, I use a **drawer** that contains some important ap
 
 For storage, RAM, temperature, and CPU, I use the **alt-format** to keep the interface clean while displaying essential system information.
 
-![System Preview](../assets/waybar/system.png)
+![System Preview](../../assets/waybar/system.png)
 
 ---
 
@@ -48,7 +48,7 @@ Power profiles daemon: simply click to toggle profiles and view the driver infor
 
 | Saver | Balance | Performance |
 | :---: | :---: | :---: |
-| ![Saver](../assets/waybar/power_saver.png) | ![Balance](../assets/waybar/power_balance.png) | ![Performance](../assets/waybar/power_performance.png) |
+| ![Saver](../../assets/waybar/power_saver.png) | ![Balance](../../assets/waybar/power_balance.png) | ![Performance](../../assets/waybar/power_performance.png) |
 
 ---
 
@@ -62,8 +62,8 @@ The workspace module uses dynamic icons to represent different states:
 
 I have also implemented **window-rewrite** rules, where icons dynamically change based on the open application. Additionally, there is a smooth animation when switching between workspaces to enhance the user experience.
 
-![Workspaces](../assets/waybar/workspace.png)
-![Workspaces Urgent](../assets/waybar/workspace_urgent.png)
+![Workspaces](../../assets/waybar/workspace.png)
+![Workspaces Urgent](../../assets/waybar/workspace_urgent.png)
 
 ---
 
@@ -73,7 +73,7 @@ The screen dimming will not be active if the light icon is on.
 
 | Dimming Inactive (On) | Dimming Active (Off) |
 | :---: | :---: |
-| ![Idle On](../assets/waybar/idle_on.png) | ![Idle Off](../assets/waybar/idle_off.png) |
+| ![Idle On](../../assets/waybar/idle_on.png) | ![Idle Off](../../assets/waybar/idle_off.png) |
 
 ---
 
@@ -81,7 +81,7 @@ The screen dimming will not be active if the light icon is on.
 
 The PulseAudio module uses a **drawer** that contains a microphone icon and a volume slider. The tooltip displays current volume levels. Click the icon to expand the controls.
 
-![Pulse Audio](../assets/waybar/pulseaudio.png)
+![Pulse Audio](../../assets/waybar/pulseaudio.png)
 
 ---
 
@@ -101,7 +101,7 @@ This section manages Network and Bluetooth connectivity with advanced mouse acti
 
 | Network | Bluetooth |
 | :---: | :---: |
-| ![Network](../assets/waybar/network.png) | ![Bluetooth](../assets/waybar/bluetooth.png) |
+| ![Network](../../assets/waybar/network.png) | ![Bluetooth](../../assets/waybar/bluetooth.png) |
 
 ---
 
@@ -111,7 +111,7 @@ The battery module changes according to the state of the device. It features an 
 
 | Battery | Battery Alt |
 | :---: | :---: |
-| ![Battery](../assets/waybar/battery.png) | ![Battery Alt](../assets/waybar/battery_alt_tooltip.png) |
+| ![Battery](../../assets/waybar/battery.png) | ![Battery Alt](../../assets/waybar/battery_alt_tooltip.png) |
 
 ---
 
@@ -121,7 +121,7 @@ The clock displays the time and can be toggled to a calendar view. It also inclu
 
 | Clock | Calendar |
 | :---: | :---: |
-| ![Clock](../assets/waybar/clock.png) | ![Calendar](../assets/waybar/calendar.png) |
+| ![Clock](../../assets/waybar/clock.png) | ![Calendar](../../assets/waybar/calendar.png) |
 
 ---
 
@@ -136,7 +136,7 @@ This module merges [Swaync](../swaync/) with the **Tray** using a **drawer-style
 
 | Tray | Notification |
 | :---: | :---: |
-| ![System Tray](../assets/waybar/tray.png) | ![Notification](../assets/waybar/notif.png) |
+| ![System Tray](../../assets/waybar/tray.png) | ![Notification](../../assets/waybar/notif.png) |
 
 ---
 
