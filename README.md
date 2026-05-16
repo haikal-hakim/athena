@@ -6,15 +6,15 @@
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Hyprland-33CCEE?style=flat&logo=hyprland&logoColor=white" />
   <img src="https://img.shields.io/badge/Neovim-22C55E?style=flat&logo=neovim&logoColor=white" />
-  <br />
-  <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=flat&color=yellow" />
-  </a>
-  <img src="https://img.shields.io/badge/Status-WIP-orange?style=flat" />
-  <img src="https://img.shields.io/github/watchers/haikal-hakim/athena?style=flat&color=green&logo=github&label=Views" />
+  <img src="https://img.shields.io/badge/Zsh-F15A24?style=flat&logo=zsh&logoColor=white" />
   <br />
   <img src="https://img.shields.io/github/stars/haikal-hakim/athena?style=flat&color=yellow&logo=github" />
   <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github" />
+  <br />
+  <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=flat&color=orange" />
+  </a>
+  <img src="https://img.shields.io/badge/Status-WIP-red?style=flat" />
 </p>
 
 <p align="center">
