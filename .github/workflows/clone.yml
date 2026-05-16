@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Traffic to Badge
-        uses: yi-Xu-0100/traffic-to-badge@v1
+      - name: Set Traffic
+        uses: yi-Xu-0100/traffic-to-badge@v1.4.0
         with:
           my_token: ${{ secrets.SECRET_TOKEN }}
+          static_list: ${{ github.repository }}
+          traffic_branch: traffic
