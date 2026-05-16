@@ -33,7 +33,7 @@ In the pursuit of a perfect workspace, one must balance form with uncompromising
 |**[Waybar](#waybar-preview)** | Custom modular status bar |
 |**[Rofi](#rofi-preview)** | App launcher & Clipboard |
 |**[SwayNC](#sway-notification-center)** | Notification center & Control center |
-|**[Wallpapers](#hyprpaper-selector)** | Interactive hyprpaper selector |
+|**[Wallpaper Selector](#hyprpaper-selector)** | Interactive hyprpaper selector |
 |**[System](#fastfetch--starship-preview)** | Fastfetch & Starship prompts |
 |**[Neovim](#neovim-preview)** | Personal LazyVim setup |
 |**[Warning](#warning)** | Crucial installation disclaimer |
@@ -43,16 +43,18 @@ In the pursuit of a perfect workspace, one must balance form with uncompromising
 
 ```text
 athena/
-├── 📂 assets/       # Wallpapers, screenshots & icons
-├── 📂 fastfetch/    # System information layout
-├── 📂 kitty/        # GPU-based terminal configuration
-├── 📂 matugen/      # Material Design dynamic color templates
-├── 📂 nvim/         # Neovim (LazyVim) IDE & plugins config
-├── 📂 rofi/         # Application launcher & clipboard themes
-├── 📂 starship/     # Minimalist & fast shell prompt
-├── 📂 swaync/       # Notification daemon & control center
-├── 📂 waybar/       # Highly modular status bar configuration
-└── 📂 zsh/          # Z-shell aliases, functions & plugins
+├── 📂 .config/         # Main Linux configuration directory
+│   ├── 📂 eww/         # Elkowar's Wacky Widgets (Coming Soon/In Progress)
+│   ├── 📂 fastfetch/   # System information layout
+│   ├── 📂 kitty/       # GPU-based terminal configuration
+│   ├── 📂 matugen/     # Material Design dynamic color templates
+│   ├── 📂 nvim/        # Neovim (LazyVim) IDE & plugins config
+│   ├── 📂 rofi/        # Application launcher & clipboard themes
+│   ├── 📂 starship/    # Minimalist & fast shell prompt configuration
+│   ├── 📂 swaync/      # Notification daemon & control center
+│   ├── 📂 waybar/      # Highly modular status bar configuration
+│   └── 📂 zsh/         # Z-shell aliases, functions & custom modules
+└── 📂 assets/          # Preview
 ```
 </details>
 
@@ -69,7 +71,7 @@ This is how the custom modular Waybar looks like, featuring dynamic theming with
 ---
 
 ## Rofi Preview
-This Rofi display, used for [App Launcher](./rofi/config.rasi) and [Clipboard manager](./rofi/clipboard.rasi):
+This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clipboard manager](./.config/rofi/clipboard.rasi):
 
 | Rofi Launcher | Clipboard Manager |
 | :---: | :---: |
@@ -78,31 +80,31 @@ This Rofi display, used for [App Launcher](./rofi/config.rasi) and [Clipboard ma
 ---
 
 ## Sway Notification Center
-Simple [swaync](./swaync/) with screenshot button feature, screen record, hyprpicker and calculator
+Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator
 
 ![Sway Notification Center Preview](./assets/swaync.png)
 
 ---
 
 ## Hyprpaper Selector
-An interactive [wallpaper selector](./zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
+An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
 
 ![Hyprpaper Selector Preview](./assets/wallpaper-selector.png)
 
 > [!TIP]
-> You can find the detailed documentation and structure for my ZSH setup in the [zsh folder](./zsh/).
+> You can find the detailed documentation and structure for my ZSH setup in the [zsh folder](./.config/zsh/).
 
 ---
 
 ## Fastfetch & Starship Preview
-A glimpse of the system information displayed with [Fastfetch](./fastfetch/) and [Starship](./starship/):
+A glimpse of the system information displayed with [Fastfetch](./.c) and [Starship](./starship/):
 
 ![Fastfetch Preview](./assets/fastfetch_preview.png)
 
 ---
 
 ## Neovim Preview
-My personal [LazyVim](./nvim/) configuration:
+My personal [LazyVim](./.config/nvim/) configuration:
 
 ![Lazyvim Preview](./assets/dashboard_preview.png)
 
