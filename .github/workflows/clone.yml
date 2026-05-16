@@ -10,7 +10,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Set Traffic
         uses: yi-Xu-0100/traffic-to-badge@v1.4.0
-        with:
+        env:
           my_token: ${{ secrets.BADGES_TOKENS }}
+        with:
           static_list: ${{ github.repository }}
           traffic_branch: traffic
