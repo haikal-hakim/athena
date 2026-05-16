@@ -11,6 +11,6 @@ jobs:
       - name: Set Traffic
         uses: yi-Xu-0100/traffic-to-badge@v1.4.0
         with:
-          my_token: ${{ secrets.SECRET_TOKEN }}
+          my_token: ${{ secrets.BADGES_TOKENS }}
           static_list: ${{ github.repository }}
           traffic_branch: traffic
