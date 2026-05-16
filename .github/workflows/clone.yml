@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Traffic to Badge
-        uses: yi-Xu-0100/traffic-to-badge@v1.6.0
+        uses: yi-Xu-0100/traffic-to-badge@v1
         with:
           my_token: ${{ secrets.SECRET_TOKEN }}
