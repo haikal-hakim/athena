@@ -11,10 +11,9 @@
     <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=flat&color=yellow" />
   </a>
   <img src="https://img.shields.io/badge/Status-WIP-orange?style=flat" />
-  <br />
   <img src="https://img.shields.io/github/stars/haikal-hakim/athena?style=flat&color=yellow&logo=github" />
   <a href="https://gist.github.com/haikal-hakim/GIST_ID_LO">
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github" />
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github" />
   </a>
 </p>
 
