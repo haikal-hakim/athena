@@ -66,7 +66,7 @@ This is how the custom modular Waybar looks like, featuring dynamic theming with
 ![Waybar Preview](./assets/waybar/full_desktop_waybar.png)
 
 > [!TIP]
-> You can find the detailed documentation and structure for my Waybar setup in the [Waybar folder](./waybar/).
+> You can find the detailed documentation and structure for my Waybar setup in the [Waybar folder](./.config/waybar/).
 
 ---
 
@@ -97,7 +97,7 @@ An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrate
 ---
 
 ## Fastfetch & Starship Preview
-A glimpse of the system information displayed with [Fastfetch](./.c) and [Starship](./starship/):
+A glimpse of the system information displayed with [Fastfetch](./.config/fastfetch/) and [Starship](./.config/starship/):
 
 ![Fastfetch Preview](./assets/fastfetch_preview.png)
 
