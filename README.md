@@ -12,9 +12,7 @@
   </a>
   <img src="https://img.shields.io/badge/Status-WIP-orange?style=flat" />
   <img src="https://img.shields.io/github/stars/haikal-hakim/athena?style=flat&color=yellow&logo=github" />
-  <a href="https://gist.github.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50">
-    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github" />
-  </a>
+  <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github" />
 </p>
 
 <p align="center">
