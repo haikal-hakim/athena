@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  An ecosystem built on freedom - where the system bends to the user, not the other way around.
+  An ecosystem built on freedom, where the system bends to the user, not the other way around.
 </p>
 
 ---
