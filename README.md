@@ -8,12 +8,15 @@
   <img src="https://img.shields.io/badge/Neovim-22C55E?style=flat&logo=neovim&logoColor=white" />
   <img src="https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white" />
   <br />
+  <a href="https://github.com/haikal-hakim/athena/stargazers">
   <img src="https://img.shields.io/github/stars/haikal-hakim/athena?style=flat&color=yellow&logo=github" />
+  </a>
+  <img src="https://img.shields.io/github/commit-activity/m/haikal-hakim/athena?style=flat&color=purple&logo=github" />
   <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github" />
-    <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
+      <br />
+  <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=flat&color=orange" />
   </a>
-  <br />
   <img src="https://img.shields.io/badge/Status-WIP-red?style=flat" />
 </p>
 
