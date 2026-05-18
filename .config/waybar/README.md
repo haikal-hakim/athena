@@ -38,6 +38,23 @@ waybar/
 
 ---
 
+## Modules
+
+| Module | Interaction | Action |
+| --- | --- | --- |
+| Network | Left click | Show `nm-applet` in tray|
+| | Right click | Hide `nm-applet` in tray|
+| | Scroll up | Enable Wi-Fi |
+| | Scroll down | Disable Wi-Fi |
+| Bluetooth | Left click | Open `blueman-manager` |
+| | Right click | Toggle power on/off |
+| SwayNC | Left click | Open/close panel |
+| | Right click | Toggle Do Not Disturb |
+| Power Profiles | Click | Toggle Saver > Balance > Performance |
+| Idle Inhibitor | Click | Toggle screen dimming |
+
+---
+
 ## Colors
 
 Edit `tokens/colors.css` to match your preference.
@@ -53,9 +70,9 @@ Edit `tokens/colors.css` to match your preference.
 | --- | --- |
 | [Waybar](https://github.com/Alexays/Waybar) | Status bar |
 | [SwayNC](https://github.com/ErikReider/SwayNotificationCenter) | Notification center |
-| `nm-applet` | Network manager |
-| `blueman` | Bluetooth manager |
-| `pipewire` / `pulseaudio` | Audio |
+| [nm-applet](https://gitlab.gnome.org/GNOME/network-manager-applet) | Network manager |
+| [blueman](https://github.com/blueman-project/blueman) | Bluetooth manager |
+| [pipewire](https://gitlab.freedesktop.org/pipewire/pipewire) / [pulseaudio](https://gitlab.freedesktop.org/pulseaudio/pulseaudio) | Audio |
 
 ---
 
