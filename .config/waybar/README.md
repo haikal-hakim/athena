@@ -61,8 +61,9 @@ Edit `tokens/colors.css` to match your preference.
 ## Install
 
 ```bash
+git clone https://github.com/haikal-hakim/athena.git
+cd athena
 cp -r .config/waybar ~/.config/waybar
-
 ```
 ---
 
