@@ -1,143 +1,67 @@
-## Waybar Configuration
+# Waybar
 
-This README provides a preview and explains the file structure of my Waybar configuration.
+![Full Desktop]()
 
-## Dynamic Theming (Matugen)
-
-This setup uses **[Matugen](https://github.com/InioX/matugen)** to generate Material You color palettes from your wallpaper.
-
-The color tokens are dynamically managed:
-* **Template**: Located in [`matugen/templates/waybar-colors.css`](../matugen/templates/waybar-colors.css)
-* **Output**: Generated into [`waybar/tokens/colors.css`](./tokens/colors.css)
-
-All Waybar modules automatically inherit these colors for a consistent.
-
-![Dynamic Example](../../assets/waybar/dynamic_example.png)
-![Dynamic Example_1](../../assets/waybar/dynamic_example_1.png)
-![Dynamic Example_2](../../assets/waybar/dynamic_example_2.png)
+![Showcase]()
 
 ---
 
-## Full Desktop Preview
+## Structure
 
-Full desktop overview showcasing Waybar integrated with Kitty (Fastfetch) and Neovim.
-
-![Full Desktop Preview](../../assets/waybar/full_desktop_waybar.png)
-
----
-
-## Custom Distro
-
-In the custom distro section, I use a **drawer** that contains some important applications.
-
-![Custom Distro Preview](../../assets/waybar/custom_distro.png)
-
----
-
-## Storage & System
-
-For storage, RAM, temperature, and CPU, I use the **alt-format** to keep the interface clean while displaying essential system information.
-
-![System Preview](../../assets/waybar/system.png)
-
----
-
-## Power Profiles Daemon
-
-Power profiles daemon: simply click to toggle profiles and view the driver information in the tooltip.
-
-| Saver | Balance | Performance |
-| :---: | :---: | :---: |
-| ![Saver](../../assets/waybar/power_saver.png) | ![Balance](../../assets/waybar/power_balance.png) | ![Performance](../../assets/waybar/power_performance.png) |
+```
+waybar/
+├── config.jsonc                     # Entry point, loads all modules
+├── style.css                        # Main stylesheet
+├── modules/                         # Each module in its own file
+│   ├── audio.jsonc
+│   ├── battery.jsonc
+│   ├── clock.jsonc
+│   ├── connections.jsonc            # Network & Bluetooth
+│   ├── distro.jsonc
+│   ├── groups.jsonc                 # Drawer grouping
+│   ├── idle-inhibitor.jsonc
+│   ├── power-profiles-daemon.jsonc
+│   ├── storage.jsonc
+│   ├── system.jsonc                 # CPU, RAM, temperature
+│   ├── tray-notif.jsonc             # Tray + SwayNC
+│   └── workspace.jsonc
+└── tokens/                          # CSS variables
+    ├── colors.css                   # ← edit colors here
+    ├── batt-clock.css
+    ├── slider.css
+    ├── state.css
+    ├── widget.css
+    └── workspace.css
+```
 
 ---
 
-## Workspaces
+## Colors
 
-The workspace module uses dynamic icons to represent different states:
-* **Pacman**: Active workspace.
-* **Ghosts**: Workspaces with open applications.
-* **Dots**: Empty workspaces.
-* **Red Ghost**: Urgent workspace notification.
+Edit `tokens/colors.css` to match your preference.
 
-I have also implemented **window-rewrite** rules, where icons dynamically change based on the open application. Additionally, there is a smooth animation when switching between workspaces to enhance the user experience.
-
-![Workspaces](../../assets/waybar/workspace.png)
-![Workspaces Urgent](../../assets/waybar/workspace_urgent.png)
+> For automatic color generation from your wallpaper, see `.config/matugen` and `.config/zsh`.
 
 ---
 
-## Idle Inhibitor
+## Dependencies
 
-The screen dimming will not be active if the light icon is on.
-
-| Dimming Inactive (On) | Dimming Active (Off) |
-| :---: | :---: |
-| ![Idle On](../../assets/waybar/idle_on.png) | ![Idle Off](../../assets/waybar/idle_off.png) |
-
----
-
-## Pulse Audio
-
-The PulseAudio module uses a **drawer** that contains a microphone icon and a volume slider. The tooltip displays current volume levels. Click the icon to expand the controls.
-
-![Pulse Audio](../../assets/waybar/pulseaudio.png)
+| Package | Purpose |
+| --- | --- |
+| [Waybar](https://github.com/Alexays/Waybar) | Status bar |
+| [SwayNC](https://github.com/ErikReider/SwayNotificationCenter) | Notification center |
+| `nm-applet` | Network manager |
+| `blueman` | Bluetooth manager |
+| `pipewire` / `pulseaudio` | Audio |
 
 ---
 
-## Connections
+## Install
 
-This section manages Network and Bluetooth connectivity with advanced mouse actions:
+```bash
+cp -r .config/waybar ~/.config/waybar
 
-### Network
-* **Left Click**: Show `nm-applet` in the tray.
-* **Right Click**: Hide `nm-applet` from the tray.
-* **Scroll Up**: Enable Wi-Fi.
-* **Scroll Down**: Disable Wi-Fi.
-
-### Bluetooth
-* **Left Click**: Open `blueman-manager`.
-* **Right Click**: Toggle Bluetooth Power (On/Off).
-
-| Network | Bluetooth |
-| :---: | :---: |
-| ![Network](../../assets/waybar/network.png) | ![Bluetooth](../../assets/waybar/bluetooth.png) |
-
----
-
-## Battery
-
-The battery module changes according to the state of the device. It features an **alt-format** and a tooltip to display battery health and status.
-
-| Battery | Battery Alt |
-| :---: | :---: |
-| ![Battery](../../assets/waybar/battery.png) | ![Battery Alt](../../assets/waybar/battery_alt_tooltip.png) |
-
----
-
-## Clock & Calendar
-
-The clock displays the time and can be toggled to a calendar view. It also includes a tooltip for the monthly calendar.
-
-| Clock | Calendar |
-| :---: | :---: |
-| ![Clock](../../assets/waybar/clock.png) | ![Calendar](../../assets/waybar/calendar.png) |
-
----
-
-## Tray
-
-This module merges [Swaync](../swaync/) with the **Tray** using a **drawer-style** interface to keep the UI clean. It manages background applications via the system tray. Additionally, it features a **dynamic notification indicator** that updates its icon and color based on incoming alerts or system states.
-
-### SwayNC
-* **Left Click**: Open or close `swaync client`.
-* **Right Click**: mode Do Not Disturb (on/off)
-
-
-| Tray | Notification |
-| :---: | :---: |
-| ![System Tray](../../assets/waybar/tray.png) | ![Notification](../../assets/waybar/notif.png) |
-
+```
 ---
 
 ## Acknowledgments
