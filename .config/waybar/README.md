@@ -42,6 +42,7 @@ waybar/
 
 Edit `tokens/colors.css` to match your preference.
 
+> [!TIP]
 > For automatic color generation from your wallpaper, see `.config/matugen` and `.config/zsh`.
 
 ---
