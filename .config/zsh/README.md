@@ -15,14 +15,19 @@ An interactive ZSH utility for Hyprland to manage desktop backgrounds and system
 ### Features
 * **Interactive Selection:** List and choose wallpapers from the terminal using a clean, formatted interface.
 * **Hyprpaper Integration:** Automates preloading, unloading, and swapping wallpapers via `hyprctl`.
-* **Dynamic Theming:** Automatically generates Material Design color palettes using `matugen` based on the selected wallpaper, syncing your system colors instantly.
+* **Dynamic Theming:** *(optional)* Generates Material Design color palettes using `matugen` based on the selected wallpaper.
 
 ### Dependencies
-The following tools must be installed on your system:
+
 * `zsh` - Used for the primary script logic and array handling.
 * `eza` - Required for directory listing.
 * `hyprpaper` - The wallpaper utility for Hyprland.
-* `matugen` - The Material Design color palette generator.
+* `matugen` *(optional)* - Generates Material Design color palettes from wallpaper. If not used,
+remove these lines in `wallpaper.zsh`:
+```bash
+  echo -e "  \e[38;2;0;210;210m󰔟  Generating Colors...\e[0m"
+  matugen image "$FULL_PATH" --source-color-index 0 > /dev/null 2>&1
+```
 
 ### Configuration
 The script looks for image files in the following directory: `$HOME/Pictures/Wallpapers`

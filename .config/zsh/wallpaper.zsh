@@ -42,7 +42,7 @@ wallpaper() {
         hyprctl hyprpaper preload "$FULL_PATH" > /dev/null 2>&1
         sleep 0.1
         hyprctl hyprpaper wallpaper ",$FULL_PATH" > /dev/null 2>&1
-        echo -e "  \e[38;2;0;210;210m󰔟  Generating Colors...\e[0m"
+        echo -e "  \e[38;2;0;210;210m󰔟  Generating Colors...\e[0m" #matugen
         matugen image "$FULL_PATH" --source-color-index 0 > /dev/null 2>&1 #matugen
         echo -e "  \e[38;2;0;210;210m✓  $SELECTED_WALL\e[0m"
         echo ""
