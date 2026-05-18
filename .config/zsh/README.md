@@ -22,8 +22,10 @@ An interactive ZSH utility for Hyprland to manage desktop backgrounds and system
 * `zsh` - Used for the primary script logic and array handling.
 * `eza` - Required for directory listing.
 * `hyprpaper` - The wallpaper utility for Hyprland.
-* `matugen` *(optional)* - Generates Material Design color palettes from wallpaper. If not used,
-remove these lines in `wallpaper.zsh`:
+* `matugen` *(optional)* - Generates Material Design color palettes from wallpaper.
+
+If not used matugen, remove these lines in `wallpaper.zsh`:
+
 ```bash
   echo -e "  \e[38;2;0;210;210m󰔟  Generating Colors...\e[0m"
   matugen image "$FULL_PATH" --source-color-index 0 > /dev/null 2>&1
