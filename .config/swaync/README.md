@@ -93,3 +93,4 @@ Use your device name in the config:
 - [grimblast](https://github.com/hyprwm/contrib)
 - [wl-screenrec](https://github.com/russelltg/wl-screenrec)
 - [hyprpicker](https://github.com/hyprwm/hyprpicker)
+- [galculator](https://archlinux.org/packages/extra/x86_64/galculator/)
