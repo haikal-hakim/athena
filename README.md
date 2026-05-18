@@ -48,8 +48,8 @@ athena/
 │   ├── starship/    # Minimalist & fast shell prompt configuration
 │   ├── swaync/      # Notification daemon & control center
 │   ├── waybar/      # Highly modular status bar configuration
-│   └── zsh/         # Z-shell aliases, functions & custom modules
-└── README.md        # Dock
+│   └── zsh/         # Functions for shell
+└── .zshrc           # Shell
 ```
 </details>
 
