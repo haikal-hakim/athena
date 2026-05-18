@@ -12,6 +12,16 @@ Simple SwayNC configuration for Hyprland with:
 
 ---
 
+# Dependencies
+
+- `swaync`
+- `grimblast`
+- `wl-screenrec`
+- `hyprpicker`
+- `galculator`
+
+---
+
 # Important Notes
 
 ## Buttons Grid
@@ -20,7 +30,7 @@ The `buttons-grid` section uses custom scripts for screenshot and screen recordi
 
 Example:
 
-```
+```json
 "actions": [
   {
     "label": "",
@@ -32,15 +42,6 @@ Example:
   }
 ]
 ```
-
-### Default Actions
-
-| Button | Function | Tool |
-|---|---|---|
-| `` | Screenshot | `grimblast` |
-| `󰹑` | Screen Recording | `wl-screenrec` |
-| `` | Color Picker | `hyprpicker` |
-| `󰪚` | Calculator | `galculator` |
 
 > [!NOTE]
 > Make sure your scripts are executable.
@@ -62,7 +63,7 @@ Default config:
 
 Check available backlight devices:
 
-```
+```bash
 ls /sys/class/backlight
 ```
 
@@ -76,22 +77,12 @@ nvidia_wmi_ec_backlight
 
 Use your device name in the config:
 
-```
+```json
 "backlight": {
   "label": "󰃠 ",
   "device": "your_device_name"
 }
 ```
-
----
-
-# Dependencies
-
-- `swaync`
-- `grimblast`
-- `wl-screenrec`
-- `hyprpicker`
-- `galculator`
 
 ---
 
