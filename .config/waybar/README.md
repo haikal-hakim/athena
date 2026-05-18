@@ -1,6 +1,6 @@
 # Waybar
 
-![Full Desktop]()
+![Full Desktop](https://github.com/user-attachments/assets/59950418-4215-430a-acd9-31cb680719ff)
 
 ![Showcase]()
 
