@@ -78,7 +78,7 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 ## Sway Notification Center
 Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator
 
-<img width="600" src="https://github.com/user-attachments/assets/daf520ef-39ca-4217-8f11-fb8ec199d489" />
+<img width="350" src="https://github.com/user-attachments/assets/daf520ef-39ca-4217-8f11-fb8ec199d489" />
 
 ---
 
