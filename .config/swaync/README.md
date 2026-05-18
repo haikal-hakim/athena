@@ -24,11 +24,11 @@ Example:
 "actions": [
   {
     "label": "",
-    "command": "swaync-client -cp; sleep 0.3; ~/.config/hypr/scripts/screenshot.sh"
+    "command": "swaync-client -cp; sleep 0.3; path/to/your/script.sh"
   },
   {
     "label": "󰹑",
-    "command": "swaync-client -cp; sleep 0.3; ~/.config/hypr/scripts/record.sh"
+    "command": "swaync-client -cp; sleep 0.3; path/to/your/script.sh"
   }
 ]
 ```
