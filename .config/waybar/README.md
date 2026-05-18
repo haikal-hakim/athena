@@ -70,9 +70,9 @@ Edit `tokens/colors.css` to match your preference.
 | --- | --- |
 | [Waybar](https://github.com/Alexays/Waybar) | Status bar |
 | [SwayNC](https://github.com/ErikReider/SwayNotificationCenter) | Notification center |
-| [nm-applet](https://gitlab.gnome.org/GNOME/network-manager-applet) | Network manager |
-| [blueman](https://github.com/blueman-project/blueman) | Bluetooth manager |
-| [pipewire](https://gitlab.freedesktop.org/pipewire/pipewire) / [pulseaudio](https://gitlab.freedesktop.org/pulseaudio/pulseaudio) | Audio |
+| [nm-applet](https://wiki.archlinux.org/title/NetworkManager) | Network manager |
+| [blueman](https://wiki.archlinux.org/title/Blueman) | Bluetooth manager |
+| [pipewire](https://wiki.archlinux.org/title/PipeWire) / [pulseaudio](https://wiki.archlinux.org/title/PulseAudio) | Audio |
 
 ---
 
