@@ -85,17 +85,10 @@ Simple [swaync](./.config/swaync/) with screenshot button feature, screen record
 ## Hyprpaper Selector
 An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
 
-<img src="https://github.com/user-attachments/assets/43799bca-ed6d-47e4-b3d4-787f587eeb59" />
+<img width= "350" src="https://github.com/user-attachments/assets/43799bca-ed6d-47e4-b3d4-787f587eeb59" />
 
 > [!TIP]
 > You can find the detailed documentation and structure for my ZSH setup in the [zsh folder](./.config/zsh/).
-
----
-
-## Neovim Preview
-My personal [LazyVim](./.config/nvim/) configuration:
-
-![Lazyvim Preview](./assets/dashboard_preview.png)
 
 ---
 
