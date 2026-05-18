@@ -19,7 +19,7 @@ waybar/
 │   ├── battery.jsonc
 │   ├── clock.jsonc
 │   ├── connections.jsonc            # Network & Bluetooth
-│   ├── distro.jsonc
+│   ├── distro.jsonc                 # ← Applications embedded
 │   ├── groups.jsonc                 # Drawer grouping
 │   ├── idle-inhibitor.jsonc
 │   ├── power-profiles-daemon.jsonc
