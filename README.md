@@ -26,12 +26,7 @@
 
 ---
 
-## Prologue
-> "Let him that would move the world, first move himself."
-
-In the pursuit of a perfect workspace, one must balance form with uncompromising utility. This repository is not just a collection of scripts, but a digital sanctuary built upon the principles of clarity and strategic design.
-
----
+ This repository is not just a collection of scripts, but a digital sanctuary built upon the principles of clarity and strategic design.
 
 <details>
 <summary><b>Click to view Folder Structure</b></summary>
