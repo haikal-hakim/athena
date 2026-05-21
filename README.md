@@ -3,19 +3,19 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hyprland-33CCEE?style=flat&logo=hyprland&logoColor=white" />
-  <img src="https://img.shields.io/badge/Neovim-22C55E?style=flat&logo=neovim&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shell_Script-2C2C2C?style=flat&logo=gnu-bash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hyprland-33CCEE?style=flat-square&logo=hyprland&logoColor=white" />
+  <img src="https://img.shields.io/badge/Neovim-22C55E?style=flat-square&logo=neovim&logoColor=white" />
+  <img src="https://img.shields.io/badge/Shell_Script-2C2C2C?style=flat-square&logo=gnu-bash&logoColor=white" />
   <br />
   <a href="https://github.com/haikal-hakim/athena/stargazers">
-    <img src="https://img.shields.io/github/stars/haikal-hakim/athena?style=flat&color=yellow&logo=github" />
+    <img src="https://img.shields.io/github/stars/haikal-hakim/athena?style=flat-square&color=yellow&logo=github" />
   </a>
-  <img src="https://img.shields.io/github/last-commit/haikal-hakim/athena?style=flat&color=purple&logo=github" />
-  <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github" />
+  <img src="https://img.shields.io/github/last-commit/haikal-hakim/athena?style=flat-square&color=purple&logo=github" />
+  <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github&style=flat-square" />
   <br />
   <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-orange.svg" />
+    <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square" />
   </a>
 </p>
 
