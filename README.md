@@ -34,7 +34,6 @@
 ```text
 athena/
 ├── .config/         # Main Linux configuration directory
-│   ├── eww/         # Elkowar's Wacky Widgets (Coming Soon/In Progress)
 │   ├── fastfetch/   # System information layout
 │   ├── kitty/       # GPU-based terminal configuration
 │   ├── matugen/     # Material Design dynamic color templates
