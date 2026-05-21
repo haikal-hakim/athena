@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">My Hyprland Journey</h1>
+<h1 align="center">My Hyprland Journey</h1>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github" />
   <br />
   <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=flat&color=orange" />
+    <img src="https://img.shields.io/badge/License-MIT-orange.svg" />
   </a>
 </p>
 
@@ -28,22 +28,22 @@
 This repository is not just a collection of scripts, but a digital sanctuary built upon the principles of clarity and strategic design.
 
 <details>
-<summary><b>Click to view Folder Structure</b></summary>
+  <summary><b>Click to view Folder Structure</b></summary>
 
-```text
-athena/
-├── .config/         # Main Linux configuration directory
-│   ├── fastfetch/   # System information layout
-│   ├── kitty/       # GPU-based terminal configuration
-│   ├── matugen/     # Material Design dynamic color templates
-│   ├── nvim/        # Neovim (LazyVim) IDE & plugins config
-│   ├── rofi/        # Application launcher & clipboard themes
-│   ├── starship/    # Minimalist & fast shell prompt configuration
-│   ├── swaync/      # Notification daemon & control center
-│   ├── waybar/      # Highly modular status bar configuration
-│   └── zsh/         # Functions for shell
-└── .zshrc           # Shell
-```
+  ```text
+  athena/
+  ├── .config/         # Main Linux configuration directory
+  │   ├── fastfetch/   # System information layout
+  │   ├── kitty/       # GPU-based terminal configuration
+  │   ├── matugen/     # Material Design dynamic color templates
+  │   ├── nvim/        # Neovim (LazyVim) IDE & plugins config
+  │   ├── rofi/        # Application launcher & clipboard themes
+  │   ├── starship/    # Minimalist & fast shell prompt configuration
+  │   ├── swaync/      # Notification daemon & control center
+  │   ├── waybar/      # Highly modular status bar configuration
+  │   └── zsh/         # Functions for shell
+  └── .zshrc           # Shell
+  ```
 </details>
 
 ---
