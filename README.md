@@ -17,7 +17,6 @@
   <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=flat&color=orange" />
   </a>
-  <img src="https://img.shields.io/badge/Status-WIP-red?style=flat" />
 </p>
 
 <p align="center">
@@ -26,7 +25,7 @@
 
 ---
 
- This repository is not just a collection of scripts, but a digital sanctuary built upon the principles of clarity and strategic design.
+This repository is not just a collection of scripts, but a digital sanctuary built upon the principles of clarity and strategic design.
 
 <details>
 <summary><b>Click to view Folder Structure</b></summary>
@@ -69,20 +68,15 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 
 ---
 
-## Sway Notification Center
-Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator
+## Sway & Hyprpaper Preview
 
-<img width="350" src="https://github.com/user-attachments/assets/daf520ef-39ca-4217-8f11-fb8ec199d489" />
+| Sway Notification Center | Hyprpaper Selector |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/daf520ef-39ca-4217-8f11-fb8ec199d489" width="300" /> | <img src="https://github.com/user-attachments/assets/43799bca-ed6d-47e4-b3d4-787f587eeb59" width="300" /> |
 
----
-
-## Hyprpaper Selector
-An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
-
-<img width= "350" src="https://github.com/user-attachments/assets/43799bca-ed6d-47e4-b3d4-787f587eeb59" />
-
-> [!TIP]
-> You can find the detailed documentation and structure for my ZSH setup in the [zsh folder](./.config/zsh/).
+> [!NOTE]
+> * **Swaync:** Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator.
+> * **Hyprpaper:** An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
 
 ---
 
@@ -95,7 +89,7 @@ An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrate
 ## Epilogue
 This configuration is a reflection of constant iteration and the pursuit of an enhanced workflow. Use it as a foundation, or take only what is useful. 
 
-> "Doubt is the beginning of wisdom."
+> "I know that I am intelligent, because I know that I know nothing."
 
 **Athena Dotfiles** - Crafted for efficiency, maintained with discipline.
 
