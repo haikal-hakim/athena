@@ -70,13 +70,13 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 
 ## Sway & Hyprpaper Preview
 
-| Sway Notification Center | Hyprpaper Selector |
+| Hyprpaper Selector | Sway Notification Center | 
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/472152b4-2c4a-4ca3-9a63-ac3939de7c2d" width="400" /> | <img src="https://github.com/user-attachments/assets/daf520ef-39ca-4217-8f11-fb8ec199d489" width="400" /> |
+| <img src="https://github.com/user-attachments/assets/4653b36d-2a29-4cf8-a01b-15db89551913" width="400" /> | <img src="https://github.com/user-attachments/assets/472152b4-2c4a-4ca3-9a63-ac3939de7c2d" width="400" /> | 
 
 > [!NOTE]
-> * **Swaync:** Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator.
 > * **Hyprpaper:** An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
+> * **Swaync:** Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator.
 
 ---
 
