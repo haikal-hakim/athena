@@ -17,7 +17,6 @@
   <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square" />
   </a>
-    <img src="https://badgen.net/github/size/haikal-hakim/athena?style=flat-square&label=size&color=blue" />
 </p>
 
 <p align="center">
