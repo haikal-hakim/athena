@@ -72,7 +72,7 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 
 | Sway Notification Center | Hyprpaper Selector |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/daf520ef-39ca-4217-8f11-fb8ec199d489" width="400" /> | <img src="https://github.com/user-attachments/assets/43799bca-ed6d-47e4-b3d4-787f587eeb59" width="400" /> |
+| <img src="https://github.com/user-attachments/assets/472152b4-2c4a-4ca3-9a63-ac3939de7c2d" width="400" /> | <img src="https://github.com/user-attachments/assets/daf520ef-39ca-4217-8f11-fb8ec199d489" width="400" /> |
 
 > [!NOTE]
 > * **Swaync:** Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator.
