@@ -36,9 +36,8 @@ This repository is not just a collection of scripts, but a digital sanctuary bui
   │   ├── fastfetch/   # System information layout
   │   ├── kitty/       # GPU-based terminal configuration
   │   ├── matugen/     # Material Design dynamic color templates
-  │   ├── nvim/        # Neovim (LazyVim) IDE & plugins config
   │   ├── rofi/        # Application launcher & clipboard themes
-  │   ├── starship/    # Minimalist & fast shell prompt configuration
+  │   ├── starship/    # Minimalist & fast shell prompt
   │   ├── swaync/      # Notification daemon & control center
   │   ├── waybar/      # Highly modular status bar configuration
   │   └── zsh/         # Functions for shell
