@@ -74,8 +74,8 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 | <img src="https://github.com/user-attachments/assets/4653b36d-2a29-4cf8-a01b-15db89551913" width="400" /> | <img src="https://github.com/user-attachments/assets/d8ecda84-5629-4551-94aa-0a3e0535639b" width="400" /> |
 
 > [!NOTE]
-> * **Hyprpaper:** An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
 > * **Swaync:** Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator.
+> * **Hyprpaper:** An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
 
 ---
 
@@ -89,7 +89,7 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 Clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/haikal-hakim/athena.git](https://github.com/haikal-hakim/athena.git)
+git clone https://github.com/haikal-hakim/athena.git
 cd athena
 cp -r .config/* ~/.config/
 cp .zshrc ~/
