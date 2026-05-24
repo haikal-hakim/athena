@@ -85,6 +85,18 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 
 ---
 
+## Clone the Repository
+Clone this repository to your local machine:
+
+```bash
+git clone [https://github.com/haikal-hakim/athena.git](https://github.com/haikal-hakim/athena.git)
+cd athena
+cp -r .config/* ~/.config/
+cp .zshrc ~/
+```
+
+---
+
 ## Epilogue
 This configuration is a reflection of constant iteration and the pursuit of an enhanced workflow. Use it as a foundation, or take only what is useful. 
 
