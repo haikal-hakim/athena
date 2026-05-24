@@ -14,11 +14,13 @@ Simple SwayNC configuration for Hyprland with:
 
 # Dependencies
 
-- `swaync`
-- `grimblast`
-- `wl-screenrec`
-- `hyprpicker`
-- `galculator`
+| Dependency | Purpose |
+| :--- | :--- |
+| **`swaync`** | Notification daemon and control center. |
+| **`grimblast`** | Screenshot utility. |
+| **`hyprpicker`** | Color picker utility. |
+| **`wl-screenrec`** | Screen and audio recorder. |
+| **`galculator`** | Calculator with scientific and algebraic modes. |
 
 ---
 
@@ -88,9 +90,8 @@ Use your device name in the config:
 
 # Credits
 
-- [Hyprland](https://hypr.land/)
-- [SwayNC](https://github.com/ErikReider/SwayNotificationCenter)
-- [grimblast](https://github.com/hyprwm/contrib)
-- [wl-screenrec](https://github.com/russelltg/wl-screenrec)
-- [hyprpicker](https://github.com/hyprwm/hyprpicker)
-- [galculator](https://archlinux.org/packages/extra/x86_64/galculator/)
+* **[SwayNC](https://github.com/ErikReider/SwayNotificationCenter)** - Created by **ErikReider**. Thanks for the customizable notifications and panel center.
+* Along with the developers and contributors.
+
+---
+Developed by Muhammad Haikal Hakim.
