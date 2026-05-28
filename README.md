@@ -32,14 +32,15 @@ This repository is not just a collection of scripts, but a digital sanctuary bui
 
   ```text
   athena/
-  ├── .config/         # Main Linux configuration directory
+  ├── .config/
   │   ├── fastfetch/   # System information layout
   │   ├── kitty/       # GPU-based terminal configuration
   │   ├── matugen/     # Material Design dynamic color templates
-  │   ├── rofi/        # Application launcher & clipboard themes
+  │   ├── rofi/        # Application launcher & clipboard
   │   ├── starship/    # Minimalist & fast shell prompt
   │   ├── swaync/      # Notification daemon & control center
   │   ├── waybar/      # Highly modular status bar configuration
+  │   ├── wlogout/     # Power menu
   │   └── zsh/         # Functions for shell
   └── .zshrc           # Shell
   ```
@@ -76,6 +77,12 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 > [!NOTE]
 > * **Swaync:** Simple [swaync](./.config/swaync/) with screenshot button feature, screen record, hyprpicker and calculator.
 > * **Hyprpaper:** An interactive [wallpaper selector](./.config/zsh/) for **Hyprpaper**, integrated with **Matugen** for dynamic system theming.
+
+---
+
+## Wlogout
+Power menu preview
+
 
 ---
 
