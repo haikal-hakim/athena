@@ -81,8 +81,9 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 ---
 
 ## Wlogout
-Power menu preview
+Integrated power menu `hyprshutdown`
 
+<img width="2880" height="1800" alt="wlogout" src="https://github.com/user-attachments/assets/3e78cad5-37fe-4847-92ec-bbc51d60f93d" />
 
 ---
 
