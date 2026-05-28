@@ -1,0 +1,20 @@
+{
+    "label" : "logout",
+    "action" : "hyprshutdown || loginctl terminate-user $USER",
+    "keybind" : "l"
+}
+{
+    "label" : "shutdown",
+    "action" : "hyprshutdown -p 'systemctl poweroff' || systemctl poweroff",
+    "keybind" : "s"
+}
+{
+    "label" : "reboot",
+    "action" : "hyprshutdown -p 'systemctl reboot' || systemctl reboot",
+    "keybind" : "r"
+}
+{
+    "label" : "suspend",
+    "action" : "hyprlock & sleep 0.5 && systemctl suspend",
+    "keybind" : "u"
+}
