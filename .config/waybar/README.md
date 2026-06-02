@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/150b7b3d-9b5d-4a0f-a7a4-47977d99e9e5
 
 ---
 
-## Structure
+### Structure
 
 ```
 waybar/
@@ -19,7 +19,7 @@ waybar/
 │   ├── battery.jsonc
 │   ├── clock.jsonc
 │   ├── connections.jsonc            # Network & Bluetooth
-│   ├── distro.jsonc                 # ← Applications embedded
+│   ├── distro.jsonc                 < Applications embedded
 │   ├── groups.jsonc                 # Drawer grouping
 │   ├── idle-inhibitor.jsonc
 │   ├── power-profiles-daemon.jsonc
@@ -28,7 +28,7 @@ waybar/
 │   ├── tray-notif.jsonc             # Tray + SwayNC
 │   └── workspace.jsonc
 └── tokens/                          # CSS variables
-    ├── colors.css                   # ← edit colors here
+    ├── colors.css                   < edit colors here
     ├── batt-clock.css
     ├── slider.css
     ├── state.css
@@ -38,7 +38,23 @@ waybar/
 
 ---
 
-## Modules
+>[!IMPORTANT]
+>Open file `waybar/modules/clock`, and change this;
+
+```bash
+{
+  "clock": {
+    "timezone": "REGION/CITY",
+    "format": "󰃱 <span size='11pt'>{:%H.%M }</span>",
+    "format-alt": "󰃱 <span size='11pt'>{:%d %B %Y}</span>",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>"
+  }
+}
+```
+
+---
+
+### Modules
 
 | Module | Interaction | Action |
 | --- | --- | --- |
@@ -55,7 +71,7 @@ waybar/
 
 ---
 
-## Colors
+### Colors
 
 Edit `tokens/colors.css` to match your preference.
 
@@ -64,7 +80,7 @@ Edit `tokens/colors.css` to match your preference.
 
 ---
 
-## Dependencies
+### Dependencies
 
 | Package | Purpose |
 | --- | --- |
@@ -76,7 +92,7 @@ Edit `tokens/colors.css` to match your preference.
 
 ---
 
-## Install
+### Install
 
 ```bash
 git clone https://github.com/haikal-hakim/athena.git
