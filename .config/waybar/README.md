@@ -14,17 +14,17 @@ https://github.com/user-attachments/assets/150b7b3d-9b5d-4a0f-a7a4-47977d99e9e5
 waybar/
 ├── config.jsonc                     # Entry point, loads all modules
 ├── style.css                        # Main stylesheet
-├── modules/                         # Each module in its own file
+├── modules/
 │   ├── audio.jsonc
 │   ├── battery.jsonc
 │   ├── clock.jsonc
-│   ├── connections.jsonc            # Network & Bluetooth
+│   ├── connections.jsonc
 │   ├── distro.jsonc                 < Applications embedded
 │   ├── groups.jsonc                 # Drawer grouping
 │   ├── idle-inhibitor.jsonc
 │   ├── power-profiles-daemon.jsonc
 │   ├── storage.jsonc
-│   ├── system.jsonc                 # CPU, RAM, temperature
+│   ├── system.jsonc
 │   ├── tray-notif.jsonc             # Tray + SwayNC
 │   └── workspace.jsonc
 └── tokens/                          # CSS variables
@@ -36,6 +36,23 @@ waybar/
     └── workspace.css
 ```
 
+---
+
+### Dependencies
+
+| Package | Purpose |
+| --- | --- |
+| [SwayNC](https://github.com/ErikReider/SwayNotificationCenter) | Notification center |
+| [nm-applet](https://wiki.archlinux.org/title/NetworkManager) | Network manager |
+| [blueman](https://wiki.archlinux.org/title/Blueman) | Bluetooth manager |
+| [pipewire](https://wiki.archlinux.org/title/PipeWire) / [pulseaudio](https://wiki.archlinux.org/title/PulseAudio) | Audio |
+
+### Installation
+```bash
+git clone https://github.com/haikal-hakim/athena.git
+cd athena
+cp -r .config/waybar ~/.config/waybar
+```
 ---
 
 >[!IMPORTANT]
@@ -78,27 +95,6 @@ Edit `tokens/colors.css` to match your preference.
 > [!TIP]
 > For automatic color generation from your wallpaper, see `.config/matugen` and `.config/zsh`.
 
----
-
-### Dependencies
-
-| Package | Purpose |
-| --- | --- |
-| [Waybar](https://github.com/Alexays/Waybar) | Status bar |
-| [SwayNC](https://github.com/ErikReider/SwayNotificationCenter) | Notification center |
-| [nm-applet](https://wiki.archlinux.org/title/NetworkManager) | Network manager |
-| [blueman](https://wiki.archlinux.org/title/Blueman) | Bluetooth manager |
-| [pipewire](https://wiki.archlinux.org/title/PipeWire) / [pulseaudio](https://wiki.archlinux.org/title/PulseAudio) | Audio |
-
----
-
-### Install
-
-```bash
-git clone https://github.com/haikal-hakim/athena.git
-cd athena
-cp -r .config/waybar ~/.config/waybar
-```
 ---
 
 ## Acknowledgments
