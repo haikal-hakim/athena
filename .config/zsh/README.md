@@ -8,7 +8,7 @@ To use these functions, they need to be sourced in your main `~/.zshrc`.
 
 ---
 
-## Hyprpaper Selector (`wallpaper.zsh`)
+### Hyprpaper Selector (`wallpaper.zsh`)
 
 An interactive ZSH utility for Hyprland to manage desktop backgrounds and system-wide color schemes dynamically.
 
@@ -34,7 +34,6 @@ If not used matugen, remove these lines in `wallpaper.zsh`:
 ### Configuration
 The script looks for image files in the following directory: `$HOME/Pictures/Wallpapers`
 
-## Installation
 Source the script in your **.zshrc**:
 
 ```
