@@ -12,11 +12,10 @@ Simple SwayNC configuration for Hyprland with:
 
 ---
 
-# Dependencies
+### Dependencies
 
 | Dependency | Purpose |
 | :--- | :--- |
-| **`swaync`** | Notification daemon and control center. |
 | **`grimblast`** | Screenshot utility. |
 | **`hyprpicker`** | Color picker utility. |
 | **`wl-screenrec`** | Screen and audio recorder. |
@@ -24,9 +23,7 @@ Simple SwayNC configuration for Hyprland with:
 
 ---
 
-# Important Notes
-
-## Buttons Grid
+### Buttons Grid
 
 The `buttons-grid` section uses custom scripts for screenshot and screen recording commands to keep the configuration clean and easier to manage.
 
@@ -46,11 +43,11 @@ Example:
 ```
 
 > [!NOTE]
-> Make sure your scripts are executable.
+> Make sure your script has been given permission.
 
 ---
 
-## Backlight Device
+### Backlight Device
 
 Backlight device names may differ depending on your hardware.
 
