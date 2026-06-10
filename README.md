@@ -86,8 +86,12 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/haikal-hakim/athena.git
-
 cd athena
+```
+
+Copy configuration files:
+
+```bash
 cp -r .config/* ~/.config/
 cp .zshrc ~/
 ```
