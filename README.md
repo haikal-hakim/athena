@@ -35,14 +35,14 @@ Folder Structure
   │   ├── starship/
   │   ├── swaync/      # Notification daemon & control center
   │   ├── waybar/      # Highly modular configuration
-  │   ├── wlogout/     # Power menu
+  │   ├── wlogout/
   │   └── zsh/         # Functions for shell
   └── .zshrc           # Shell
   ```
 
 ---
 
-## Waybar Preview
+### Waybar Preview
 This is how the custom modular Waybar looks like, featuring dynamic theming with Matugen:
 
 <img width="2880" height="1800" alt="full_desktop_waybar" src="https://github.com/user-attachments/assets/c9ee976f-83c0-4dfd-95c5-a5d0de4bc33c" />
@@ -53,7 +53,7 @@ This is how the custom modular Waybar looks like, featuring dynamic theming with
 
 ---
 
-## Rofi Preview
+### Rofi Preview
 This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clipboard manager](./.config/rofi/clipboard.rasi):
 
 | Rofi Launcher | Clipboard Manager |
@@ -62,7 +62,7 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 
 ---
 
-## Sway & Hyprpaper Preview
+### Sway & Hyprpaper Preview
 
 | Hyprpaper Selector | Sway Notification Center | 
 | :---: | :---: |
@@ -74,18 +74,19 @@ This Rofi display, used for [App Launcher](./.config/rofi/config.rasi) and [Clip
 
 ---
 
-## Wlogout
+### Wlogout
 Integrated power menu `hyprshutdown`
 
 <img width="2880" height="1800" alt="wlogout" src="https://github.com/user-attachments/assets/3e78cad5-37fe-4847-92ec-bbc51d60f93d" />
 
 ---
 
-## Clone the Repository
+### Clone the Repository
 Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/haikal-hakim/athena.git
+
 cd athena
 cp -r .config/* ~/.config/
 cp .zshrc ~/
