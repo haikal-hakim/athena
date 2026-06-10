@@ -23,26 +23,22 @@
 
 ---
 
-This repository is not just a collection of scripts, but a digital sanctuary built upon the principles of clarity and strategic design.
-
-<details>
-  <summary><b>Click to view Folder Structure</b></summary>
+Folder Structure
 
   ```text
   athena/
   ├── .config/
-  │   ├── fastfetch/   # System information layout
-  │   ├── kitty/       # GPU-based terminal configuration
+  │   ├── fastfetch/
+  │   ├── kitty/
   │   ├── matugen/     # Material Design dynamic color templates
-  │   ├── rofi/        # Application launcher & clipboard
-  │   ├── starship/    # Minimalist & fast shell prompt
+  │   ├── rofi/
+  │   ├── starship/
   │   ├── swaync/      # Notification daemon & control center
-  │   ├── waybar/      # Highly modular status bar configuration
+  │   ├── waybar/      # Highly modular configuration
   │   ├── wlogout/     # Power menu
   │   └── zsh/         # Functions for shell
   └── .zshrc           # Shell
   ```
-</details>
 
 ---
 
@@ -85,12 +81,6 @@ Integrated power menu `hyprshutdown`
 
 ---
 
-<a name="warning"></a>
-> [!WARNING]
-> **Disclaimer:** Don't just blindly clone and install these files if you don't know what they do. Always review the configuration files first!
-
----
-
 ## Clone the Repository
 Clone this repository to your local machine:
 
@@ -103,11 +93,6 @@ cp .zshrc ~/
 
 ---
 
-## Epilogue
-This configuration is a reflection of constant iteration and the pursuit of an enhanced workflow. Use it as a foundation, or take only what is useful. 
-
 > "I know that I am intelligent, because I know that I know nothing."
-
-**Athena Dotfiles** - Crafted for efficiency, maintained with discipline.
 
 *Muhammad Haikal Hakim*
