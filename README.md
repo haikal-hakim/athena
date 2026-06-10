@@ -2,23 +2,20 @@
 <h1 align="center">My Hyprland Journey</h1>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hyprland-33CCEE?style=flat-square&logo=hyprland&logoColor=white" />
-  <img src="https://img.shields.io/badge/Neovim-22C55E?style=flat-square&logo=neovim&logoColor=white" />
-  <br />
-  <a href="https://github.com/haikal-hakim/athena/stargazers">
-    <img src="https://img.shields.io/github/stars/haikal-hakim/athena?style=flat-square&color=yellow&logo=github" />
-  </a>
-  <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Clone&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github&style=flat-square" />
-  <br />
-  <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square" />
-  </a>
-</p>
+<div align=center>
+
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-11111b?style=for-the-badge&logo=arch-linux&logoColor=89b4fa)
+![Hyprland](https://img.shields.io/badge/Hyprland-11111b?style=for-the-badge&logo=hyprland&logoColor=89dceb)
+![GitHub Repo stars](https://img.shields.io/github/stars/haikal-hakim/athena?style=for-the-badge&logo=github&labelColor=11111b&color=cba6f7)
+![GitHub Clones](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=CLONES&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github&labelColor=11111b&color=89dceb)
+<a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
+  <img src="https://img.shields.io/github/license/haikal-hakim/athena?style=for-the-badge&labelColor=11111b&color=f38ba8" />
+</a>
+
+</div>
 
 <p align="center">
-  An ecosystem built on freedom, where the system bends to the user, not the other way around.
+  Built on freedom, where the user controls the system, not the reverse.
 </p>
 
 ---
