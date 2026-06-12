@@ -1,3 +1,5 @@
+# @repository https://github.com/haikal-hakim/athena
+
 wallpaper() {
     local DIR="$HOME/Pictures/Wallpapers"
     clear
