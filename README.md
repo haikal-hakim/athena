@@ -6,8 +6,6 @@
 
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-11111b?style=for-the-badge&logo=arch-linux&logoColor=89b4fa)
 ![Hyprland](https://img.shields.io/badge/Hyprland-11111b?style=for-the-badge&logo=hyprland&logoColor=89dceb)
-![GitHub Repo stars](https://img.shields.io/github/stars/haikal-hakim/athena?style=for-the-badge&logo=github&labelColor=11111b&color=cba6f7)
-![GitHub Clones](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=CLONES&query=count&url=https://gist.githubusercontent.com/haikal-hakim/6a550d618f31eeea55a977e7c368ff50/raw/clone.json&logo=github&labelColor=11111b&color=89dceb)
 <a href="https://github.com/haikal-hakim/athena/blob/main/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-f38ba8?style=for-the-badge&labelColor=11111b" />
 </a>
